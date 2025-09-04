@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="sidebar" id="sidebar">
+        <a href="#" class="logo-container">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+        <ul class="sidebar-links">
+            <li><a href="#"><i class="fas fa-home"></i> <span> Home </span></a></li>
+            <li><a href="#"><i class="fas fa-user"></i><span> Profile</span></a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> <span> Settings </span></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i><span> Messages </span></a></li>
+        </ul>
+    </nav>
+    <div class="toogle-button">
+        <h3>Click the button to open the sidebar.</h3>
+        <button class="toggle-btn" id="toggleBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        </div>
+    <div class="main-content">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
